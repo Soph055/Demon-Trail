@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('Minecraft.ttf');
+}
+
+.button {
+    -fx-background-color: #282828;
+    -fx-text-fill: #f8f8f8;
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 40;
+}
+.label {
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 40;
+}
+
+.label-title{
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 100;
+}
+
+.label-big{
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 50;
+
+}
+.label-small{
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 25;
+
+}
