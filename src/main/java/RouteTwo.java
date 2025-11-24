@@ -77,8 +77,8 @@ public class RouteTwo extends GameScene {
         styleText(food, 450);
         styleText(gas, 550);
         // load images
-        ImageView sun = image("\\images\\day.gif", 1000, 300);
-        ImageView moon = image("\\images\\night.gif", 1000, 300);
+        ImageView sun = image("/images/day.gif", 1000, 300);
+        ImageView moon = image("/images/night.gif", 1000, 300);
         // Animating night and day images
         Group daysPass;
         daysPass = new Group(sun);
@@ -121,10 +121,10 @@ public class RouteTwo extends GameScene {
         // styles text
         styleText(gasStation, 390);
         // loading image and moving it
-        ImageView border = image("\\images\\border.png", 615, 100);
+        ImageView border = image("/images/border.png", 615, 100);
         border.setTranslateY(370);
 
-        box3.getChildren().add(image("\\images\\station.gif", 1000, 800));
+        box3.getChildren().add(image("/images/station.gif", 1000, 800));
         box3.getChildren().addAll(border, gasStation, spaceText(700));
         Scene sceneThree = new Scene(box3, 1000, 800);
         return sceneThree;
@@ -157,7 +157,7 @@ public class RouteTwo extends GameScene {
         // input textfield
         limitText(textFieldOne);
 
-        box4.getChildren().add(image("\\images\\border2.png", 800, 100));
+        box4.getChildren().add(image("/images/border2.png", 800, 100));
         box4.getChildren().addAll(bag, choice, choiceOne, choiceTwo, choiceThree, textFieldOne);
         Scene optionOneScene = new Scene(box4, 1000, 800);
         return optionOneScene;
@@ -188,7 +188,7 @@ public class RouteTwo extends GameScene {
         styleText(explode, 400);
         styleText(death, 500);
 
-        box5.getChildren().add(image("\\images\\cargas.gif", 1000, 800));
+        box5.getChildren().add(image("/images/cargas.gif", 1000, 800));
         box5.getChildren().addAll(car, gasUse, start, explode, death, restart(restartOne));
 
         Scene endGasScene = new Scene(box5, 1000, 800);
@@ -214,7 +214,7 @@ public class RouteTwo extends GameScene {
         styleText(travel, 400);
         styleText(noFood, 500);
 
-        box6.getChildren().add(image("\\images\\mountain.png", 1000, 300));
+        box6.getChildren().add(image("/images/mountain.png", 1000, 300));
         box6.getChildren().addAll(travel, noFood, spaceText(700));
 
         Scene medOneScene = new Scene(box6, 1000, 800);
@@ -247,7 +247,7 @@ public class RouteTwo extends GameScene {
         styleText(hunger, 550);
         styleText(consume, 625);
 
-        box7.getChildren().add(image("\\images\\grave.png", 200, 300));
+        box7.getChildren().add(image("/images/grave.png", 200, 300));
         box7.getChildren().addAll(faint, eaten, scream, hunger, consume, restart(restartTwo));
 
         Scene medTwoScene = new Scene(box7, 1000, 800);
@@ -275,7 +275,7 @@ public class RouteTwo extends GameScene {
         styleText(tired, 500);
         styleText(eat, 600);
 
-        box8.getChildren().add(image("\\images\\camp.png", 1000, 300));
+        box8.getChildren().add(image("/images/camp.png", 1000, 300));
         box8.getChildren().addAll(traveling, tired, eat, spaceText(700));
 
         Scene foodOptionScene = new Scene(box8, 1000, 800);
@@ -305,7 +305,7 @@ public class RouteTwo extends GameScene {
         styleText(problem, 500);
         styleText(cross, 575);
 
-        box9.getChildren().add(image("\\images\\river.jpg", 1000, 300));
+        box9.getChildren().add(image("/images/river.jpg", 1000, 300));
         box9.getChildren().addAll(daysPass, arrive, problem, cross, spaceText(700));
 
         Scene sceneFour = new Scene(box9, 1000, 800);
@@ -344,7 +344,7 @@ public class RouteTwo extends GameScene {
         textFieldTwo.setMaxSize(100, 10);
         textFieldTwo.setTranslateY(700);
 
-        box10.getChildren().add(image("\\images\\border2.png", 800, 100));
+        box10.getChildren().add(image("/images/border2.png", 800, 100));
         box10.getChildren().addAll(swim, choice, choiceOne, choiceTwo, choiceThree, textFieldTwo);
         Scene optionTwoScene = new Scene(box10, 1000, 800);
         return optionTwoScene;
@@ -373,7 +373,7 @@ public class RouteTwo extends GameScene {
         styleText(head, 575);
         styleText(dead, 650);
 
-        box11.getChildren().add(image("\\images\\bodyoutline.png", 1000, 300));
+        box11.getChildren().add(image("/images/bodyoutline.png", 1000, 300));
         box11.getChildren().addAll(traveling, risky, slip, head, dead, restart(restartThree));
 
         Scene travelOptionScene = new Scene(box11, 1000, 800);
@@ -412,7 +412,7 @@ public class RouteTwo extends GameScene {
         smallFont(drown);
         smallFont(zomb);
 
-        box12.getChildren().add(image("\\images\\drowning.jpg", 1000, 300));
+        box12.getChildren().add(image("/images/drowning.jpg", 1000, 300));
         box12.getChildren().addAll(toss, tree, walk, fall, drown, zomb, restart(restartFour));
 
         Scene ropeOptionScene = new Scene(box12, 1000, 800);
@@ -441,7 +441,7 @@ public class RouteTwo extends GameScene {
         styleText(swim, 500);
         styleText(river, 575);
 
-        box13.getChildren().add(image("\\images\\deepriver.jpg", 1000, 300));
+        box13.getChildren().add(image("/images/deepriver.jpg", 1000, 300));
         box13.getChildren().addAll(safety, tie, swim, river, spaceText(700));
 
         Scene swimOptionScene = new Scene(box13, 1000, 800);

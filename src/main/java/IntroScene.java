@@ -54,7 +54,7 @@ public class IntroScene extends GameScene {
         smallFont(inTwo4);
 
         //puts everything on the screen
-        sp1.getChildren().add(image("\\images\\city.gif", 1000, 300));
+        sp1.getChildren().add(image("/images/city.gif", 1000, 300));
         sp1.getChildren().addAll(spaceText(650), inTwo1, inTwo2, inTwo3, inTwo4);
 
         Scene scene1 = new Scene(sp1, 1000, 800);
@@ -95,7 +95,7 @@ public class IntroScene extends GameScene {
         smallFont(inTwo3);
         smallFont(inTwo4);
 
-        sp2.getChildren().addAll(inTwo1, inTwo2, inTwo3, inTwo4, spaceText(650), image("\\images\\zombie sister.png", 400, 300), image("\\images\\red city.gif", 1000, 300));
+        sp2.getChildren().addAll(inTwo1, inTwo2, inTwo3, inTwo4, spaceText(650), image("/images/zombie sister.png", 400, 300), image("/images/red city.gif", 1000, 300));
 
 
         return scene;
@@ -135,7 +135,7 @@ public class IntroScene extends GameScene {
         smallFont(inThree4);
         smallFont(inThree5); 
 
-        sp3.getChildren().add(image("\\images\\radio.jpg", 1000, 300));
+        sp3.getChildren().add(image("/images/radio.jpg", 1000, 300));
         sp3.getChildren().addAll(spaceText(650),inThree1, inThree2, inThree3, inThree4, inThree5);
 
         return scene;
@@ -195,7 +195,7 @@ public class IntroScene extends GameScene {
 
         basicPane(sp5);
 
-        ImageView border = new ImageView("\\images\\border.png");
+        ImageView border = new ImageView("/images/border.png");
         border.setScaleY(0.5);
         //border.setTranslateY(100);
 
@@ -212,7 +212,7 @@ public class IntroScene extends GameScene {
         text1.setStyle("-fx-text-fill:black;");
         text2.setStyle("-fx-text-fill:black;");
 
-        sp5.getChildren().add(image("\\images\\crash.gif", 1000, 800));
+        sp5.getChildren().add(image("/images/crash.gif", 1000, 800));
         sp5.getChildren().add(border);
         sp5.getChildren().addAll(text1, text2, restart(restart));
 
@@ -247,7 +247,7 @@ public class IntroScene extends GameScene {
         smallFont(text2);
         smallFont(text3);
 
-        sp6.getChildren().add(image("\\images\\zombie attack.gif", 1000, 300));
+        sp6.getChildren().add(image("/images/zombie attack.gif", 1000, 300));
         sp6.getChildren().addAll(spaceText(650),text1, text2, text3);
 
         return scene;
@@ -276,7 +276,7 @@ public class IntroScene extends GameScene {
         smallFont(text1);
         smallFont(text2);
 
-        sp7.getChildren().add(image("\\images\\graveyard1.png", 1000, 300));
+        sp7.getChildren().add(image("/images/graveyard1.png", 1000, 300));
         sp7.getChildren().addAll(text1, text2, restart(restart2));
 
 
@@ -308,7 +308,7 @@ public class IntroScene extends GameScene {
         smallFont(text1);
         smallFont(text2);
 
-        sp8.getChildren().add(image("\\images\\shelter.png", 1000, 300));
+        sp8.getChildren().add(image("/images/shelter.png", 1000, 300));
         sp8.getChildren().addAll(spaceText(650),text1,text2); 
 
         return scene;

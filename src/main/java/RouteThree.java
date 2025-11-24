@@ -79,7 +79,7 @@ public class RouteThree extends GameScene{
         smallFont(t3);
         smallFont(t4);
 
-        sp1.getChildren().add(image("\\images\\r31.png", 1000, 300));
+        sp1.getChildren().add(image("/images/r31.png", 1000, 300));
         sp1.getChildren().addAll(spaceText(650),t1, t2, t3, t4);
         return scene;
     }
@@ -146,7 +146,7 @@ public class RouteThree extends GameScene{
         smallFont(t2);
         smallFont(t3);
 
-        sp3.getChildren().add(image("\\images\\r31.png", 1000, 300));
+        sp3.getChildren().add(image("/images/r31.png", 1000, 300));
         sp3.getChildren().addAll(spaceText(650),t1,t2,t3);
         return scene;
     }
@@ -178,14 +178,14 @@ public class RouteThree extends GameScene{
         smallFont(t2);
         smallFont(t3);
 
-        Image pic = new Image("\\images\\cage.png");
+        Image pic = new Image("/images/cage.png");
         ImageView cage = new ImageView(pic);
         cage.setTranslateX(-90);
         cage.setTranslateY(65);
         cage.setFitWidth(300);
         cage.setFitHeight(255);
 
-        sp4.getChildren().add(image("\\images\\r31.png", 1000, 300));
+        sp4.getChildren().add(image("/images/r31.png", 1000, 300));
         sp4.getChildren().add(cage);
         sp4.getChildren().addAll(t1, t2, t3, restart(restart2));
 
@@ -219,14 +219,14 @@ public class RouteThree extends GameScene{
         smallFont(t2);
         smallFont(t3);
 
-        Image pic = new Image("\\images\\cage.png");
+        Image pic = new Image("/images/cage.png");
         ImageView cage = new ImageView(pic);
         cage.setTranslateX(-90);
         cage.setTranslateY(65);
         cage.setFitWidth(300);
         cage.setFitHeight(255);
 
-        sp5.getChildren().add(image("\\images\\r31.png", 1000, 300));
+        sp5.getChildren().add(image("/images/r31.png", 1000, 300));
         sp5.getChildren().add(cage);
 
         sp5.getChildren().addAll(t1,t2,t3, restart(restart1));

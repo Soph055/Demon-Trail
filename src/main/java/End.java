@@ -43,14 +43,14 @@ public class End extends GameScene {
         smallFont(notice);
         smallFont(reach);
         // load image
-        ImageView girl = image("\\images\\shootgirl.gif", 100, 150);
-        ImageView zomb = image("\\images\\zombrun.gif", 150, 200);
+        ImageView girl = image("/images/shootgirl.gif", 100, 150);
+        ImageView zomb = image("/images/zombrun.gif", 150, 200);
         // changes image location
         girl.setTranslateY(190);
         zomb.setTranslateY(150);
         zomb.setTranslateX(-200);
 
-        box1.getChildren().addAll(image("\\images\\citydist.png", 1000, 300), girl, zomb);
+        box1.getChildren().addAll(image("/images/citydist.png", 1000, 300), girl, zomb);
         box1.getChildren().addAll(time, skin, notice, reach, spaceText(700));
         Scene sceneOne = new Scene(box1, 1000, 800);
         return sceneOne;
@@ -79,10 +79,10 @@ public class End extends GameScene {
         styleText(notice, 525);
         styleText(follow, 625);
         // load image and move it
-        ImageView paper = image("\\images\\plane.gif", 1000, 200);
+        ImageView paper = image("/images/plane.gif", 1000, 200);
         paper.setTranslateY(300);
 
-        box2.getChildren().addAll(image("\\images\\safehaven.png", 1000, 800), paper);
+        box2.getChildren().addAll(image("/images/safehaven.png", 1000, 800), paper);
         box2.getChildren().addAll(time, arrive, flyer, notice, follow, spaceText(700));
         Scene sceneTwo = new Scene(box2, 1000, 800);
         return sceneTwo;
@@ -117,7 +117,7 @@ public class End extends GameScene {
         smallFont(woman);
         smallFont(offer);
 
-        box3.getChildren().add(image("\\images\\cafe.gif", 1000, 300));
+        box3.getChildren().add(image("/images/cafe.gif", 1000, 300));
         box3.getChildren().addAll(shop, hide, enter, woman, offer, spaceText(700));
         Scene sceneThree = new Scene(box3, 1000, 800);
         return sceneThree;
@@ -150,7 +150,7 @@ public class End extends GameScene {
         // input textfield
         TextField optionOne = limitText(finalChoice);
 
-        box4.getChildren().add(image("\\images\\border2.png", 800, 100));
+        box4.getChildren().add(image("/images/border2.png", 800, 100));
         box4.getChildren().addAll(riddle, choice, choiceOne, choiceTwo, choiceThree, optionOne);
         Scene choiceScene = new Scene(box4, 1000, 800);
         return choiceScene;
@@ -186,7 +186,7 @@ public class End extends GameScene {
         restart(playAgain);
         playAgain.setText("Play Again");
 
-        box5.getChildren().add(image("\\images\\gameover.gif", 1000, 300));
+        box5.getChildren().add(image("/images/gameover.gif", 1000, 300));
         box5.getChildren().addAll(wrong, zombie, sad, why, playAgain);
         Scene badEndScene = new Scene(box5, 1000, 800);
         return badEndScene;
@@ -218,7 +218,7 @@ public class End extends GameScene {
         restart(playAgainTwo);
         playAgainTwo.setText("Play Again");
 
-        box7.getChildren().add(image("\\images\\gamefinished.gif", 1000, 300));
+        box7.getChildren().add(image("/images/gamefinished.gif", 1000, 300));
         box7.getChildren().addAll(right, cure, happy, peace, playAgainTwo);
         Scene goodEndScene = new Scene(box7, 1000, 800);
         return goodEndScene;
