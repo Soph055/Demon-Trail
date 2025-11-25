@@ -2,7 +2,7 @@
 
 A branching zombie survival tale built in JavaFX, where your mission is simple: keep your infected sister alive long enough to find a cure… if your choices don’t get you both killed first.
 
----
+
 
 ## Overview
 Demon Trail is a choice-driven interactive story game where every decision affects your path. Built with Java and JavaFX, the game includes 20+ unique scenes, branching endings, stat tracking, and full multimedia integration.
