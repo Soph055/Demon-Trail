@@ -10,13 +10,13 @@ Developed collaboratively by a two-person team, the project uses OOP principles,
 
 ## Features
 - 20+ interactive scenes with branching choices
-Multiple endings influenced by player stats and decisions
-JavaFX GUI with animations, transitions, and visual elements
-Multimedia support: background music, images, and animated GIF-style sequences
-Character stat tracking (health, trust, suspicion, etc.)
-Modular OOP architecture
-Event-driven UI
-Version control collaboration
+- Multiple endings influenced by player decisions
+- JavaFX GUI with animations, transitions, and visual elements
+- Multimedia support: background music, images, and animated GIF-style sequences
+- Character stat tracking 
+- Modular OOP architecture
+- Event-driven UI
+- Version control collaboration
 
 ## Tech Stack
 Language: Java
