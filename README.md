@@ -19,10 +19,10 @@ Developed collaboratively by a two-person team, the project uses OOP principles,
 - Version control collaboration
 
 ## Tech Stack
-Language: Java
-Framework: JavaFX
-Version Control: Git + GitHub
-Assets: Images, animations, and music integrated into scenes
+- Language: Java
+- Framework: JavaFX
+- Version Control: Git + GitHub
+- Assets: Images, animations, and music integrated into scenes
 
 
 [Demon Trail Game 2.mov.zip](https://github.com/user-attachments/files/23736734/Demon.Trail.Game.2.mov.zip)
