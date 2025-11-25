@@ -9,7 +9,7 @@ Demon Trail is a choice-driven interactive story game where every decision affec
 Developed collaboratively by a two-person team, the project uses OOP principles, event-driven programming, and a modular scene system to deliver a smooth and immersive narrative experience.
 
 ## Features
-20+ interactive scenes with branching choices
+- 20+ interactive scenes with branching choices
 Multiple endings influenced by player stats and decisions
 JavaFX GUI with animations, transitions, and visual elements
 Multimedia support: background music, images, and animated GIF-style sequences
